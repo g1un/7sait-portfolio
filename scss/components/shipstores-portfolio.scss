@@ -1,0 +1,308 @@
+/*shipstores-portfolio*/
+.shipstores-portfolio{
+	margin: 0 auto;
+	max-width: 1366px;
+	min-width: 1260px;
+
+	&__promo{
+		min-height: 1976px;
+		background: url("images/shipstores-portfolio__promo.jpg") no-repeat center top;
+
+		&-text{
+			margin: 0 auto;
+			width: 735px;
+			padding: 115px 0 0;
+			text-align: center;
+
+			h2{
+				margin: 0 0 35px;
+				font-family: Ubuntu-Regular, Helvetica, sans-serif;
+				font-size: 36px;
+				line-height: 1.2em;
+				font-weight: 400;
+				color: #fff;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+			}
+
+			p{
+				margin: 0;
+				font-family: Ubuntu-Regular, Helvetica, sans-serif;
+				font-size: 18px;
+				line-height: 1.2em;
+				font-weight: 400;
+				color: #fff;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+			}
+		}
+	}
+
+	&__development{
+		padding: 0 0 155px;
+		background: #f4f4f4;
+		text-align: center;
+		position: relative;
+
+		&::after{
+			content: '';
+			position: absolute;
+			bottom: -115px;
+			left: 0;
+			right: 0;
+			height: 215px;
+			background: url("images/shipstores-portfolio__development-waves.png") repeat-x center 0;
+		}
+
+		h2{
+			margin: 0 0 55px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 60px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #000;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+		}
+
+		p{
+			margin: 0 0 30px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #000;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			font-style: italic;
+
+			&:last-child{
+				margin: 0;
+			}
+		}
+	}
+	
+	&__interface{
+		padding: 145px 0 0;
+		box-sizing: border-box;
+		min-height: 2339px;
+		background: #fafafa url("images/shipstores-portfolio__interface-bg.jpg") no-repeat center top;
+		line-height: 0;
+
+		h2{
+			margin: 0 0 85px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 700;
+			color: #576cb9;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+
+			&.grey{
+				color: #afafaf;
+			}
+		}
+
+		p{
+			margin: 0 auto;
+			width: 1180px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.5em;
+			font-weight: 400;
+			color: #000;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+			font-style: italic;
+		}
+
+		&-structure,
+		&-elements,
+		&-icons{
+			margin: 100px auto 60px;
+			display: block;
+		}
+
+		&-comment{
+			margin: 70px auto 0;
+			padding: 0 0 20px;
+			width: 1140px;
+
+			p{
+				margin: 15px 0 0;
+				float: left;
+				width: 900px;
+
+				b{
+					margin: 0 0 10px;
+					display: block;
+				}
+			}
+
+			img{
+				display: block;
+				float: right;
+				max-width: 152px;
+			}
+		}
+	}
+	
+	&__posibilities{
+		padding: 165px 0 0;
+		box-sizing: border-box;
+		min-height: 2758px;
+		background: url("images/shipstores-portfolio__posibilities-bg.jpg") no-repeat center top;
+
+		&-auction{
+			margin: 0 0 140px;
+			font-size: 0;
+			line-height: 0;
+			text-align: center;
+			position: relative;
+
+			&-screen{
+				margin: 180px 60px 0 0;
+				display: inline-block;
+				vertical-align: top;
+				box-shadow: 0 0 10px 5px rgba(0,0,0,.25);
+			}
+
+			&-text{
+				margin: 0;
+				display: inline-block;
+				vertical-align: top;
+				width: 320px;
+
+				h2{
+					margin: 0 0 40px;
+					font-family: Verdana, Helvetica, sans-serif;
+					font-size: 48px;
+					line-height: 1.2em;
+					font-weight: 700;
+					color: #0b68e4;
+					text-transform: none;
+					text-decoration: none;
+					letter-spacing: 0;
+					text-align: left;
+				}
+
+				p{
+					margin: 0;
+					font-family: Verdana, Helvetica, sans-serif;
+					font-size: 18px;
+					line-height: 1.5em;
+					font-weight: 400;
+					color: #2078e7;
+					text-transform: none;
+					text-decoration: none;
+					letter-spacing: 0;
+					font-style: italic;
+					text-align: left;
+				}
+			}
+
+			&-mask{
+				position: absolute;
+				bottom: 15px;
+				right: 15px;
+			}
+		}
+
+		&-finance{
+			margin: 0 0 145px;
+			text-align: center;
+			line-height: 0;
+
+			h2{
+				margin: 0 0 55px;
+				font-family: Verdana, Helvetica, sans-serif;
+				font-size: 48px;
+				line-height: 1.2em;
+				font-weight: 700;
+				color: #fff;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: center;
+			}
+
+			&-form{
+				margin: 0;
+				display: inline-block;
+				vertical-align: top;
+				box-shadow: 0 0 10px 5px rgba(0,0,0,.25);
+			}
+		}
+
+		&-security{
+			text-align: right;
+			line-height: 0;
+
+			h2{
+				margin: 0 auto;
+				width: 1150px;
+				font-family: Verdana, Helvetica, sans-serif;
+				font-size: 66px;
+				line-height: 1.2em;
+				font-weight: 700;
+				color: #898989;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: left;
+			}
+
+			&-form{
+				margin: -70px 40px 0 0;
+				display: inline-block;
+				vertical-align: top;
+				box-shadow: 0 0 10px 5px rgba(0,0,0,.25);
+			}
+		}
+	}
+
+	&__bonus{
+		padding: 40px 0 0;
+		box-sizing: border-box;
+		min-height: 1485px;
+		background: url("images/shipstores-portfolio__bonus-bg.jpg") no-repeat center top;
+
+		h2{
+			margin: 0 auto 70px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 700;
+			color: #898989;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 auto;
+			max-width: 1050px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #5d5d5d;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+			font-style: italic;
+		}
+	}
+}
+/*end of shipstores-portfolio*/

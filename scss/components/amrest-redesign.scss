@@ -1,0 +1,292 @@
+/*amrest-redesign*/
+.amrest-redesign{
+	margin: 0 auto;
+	max-width: 1366px;
+	min-width: 1260px;
+
+	.h1-wrap{
+
+		h1{
+			margin: 0;
+		}
+
+		.breadcrumbs-wrap{
+			z-index: 2;
+		}
+	}
+
+	&__header{
+		min-height: 698px;
+		background: url("images/amrest-redesign__header-bg.jpg") no-repeat center 0;
+		box-shadow: inset 0 -8px 8px -5px rgba(0,0,0,.5);
+		position: relative;
+		z-index: 1;
+
+		&-slider{
+			position: absolute;
+			bottom: -90px;
+			left: 50%;
+
+			&-wrapper{
+				width: 1180px;
+				margin: 0 0 0 -590px;
+
+				span{
+					display: block;
+					width: 158px;
+					height: 138px;
+					
+					&:first-of-type{
+						float: left;
+						background: url("images/amrest-redesign__header-slider-left.png") no-repeat 0 0;
+					}
+
+					&:last-of-type{
+						float: right;
+						background: url("images/amrest-redesign__header-slider-right.png") no-repeat 0 0;
+					}
+				}
+			}
+		}
+
+		&-slides{
+
+			ul{
+				margin: 0 auto;
+				width: 700px;
+
+				li{
+					padding: 45px 35px 40px;
+					box-sizing: border-box;
+					background: url("images/amrest-redesign__header-slider-bg.png") repeat 0 0;
+
+					h2{
+						margin: 0 0 55px;
+						font-family: Ubuntu-Regular, Helvetica, sans-serif;
+						font-size: 36px;
+						line-height: 1.2em;
+						font-weight: 400;
+						color: #fff;
+						text-transform: none;
+						text-decoration: none;
+						letter-spacing: 0;
+						text-align: center;
+					}
+
+					p{
+						margin: 0;
+						font-family: Verdana, Helvetica, sans-serif;
+						font-size: 18px;
+						line-height: 27px;
+						font-weight: 400;
+						color: #fff;
+						text-transform: none;
+						text-decoration: none;
+						letter-spacing: 0;
+						text-align: left;
+						font-style: italic;
+					}
+				}
+			}
+		}
+	}
+
+	&__features{
+		padding: 145px 0 50px;
+		box-sizing: border-box;
+		background: url("images/amrest-redesign-bg.jpg") repeat 0 0;
+		line-height: 0;
+		position: relative;
+
+		&-pencil{
+			position: absolute;
+			top: 10px;
+			right: 40px;
+			background: url("images/amrest-redesign__features-pencil.png") no-repeat 0 0;
+			background-size: 100%;
+			width: 447px;
+			height: 220px;
+		}
+
+		ul{
+			margin: 0 auto 30px;
+			width: 1180px;
+			font-size: 0;
+
+			li{
+				display: inline-block;
+				vertical-align: top;
+				width: 33.33%;
+				min-height: 160px;
+				padding: 67px 0 0;
+				box-sizing: border-box;
+				font-family: Ubuntu-Regular, Helvetica, sans-serif;
+				font-size: 18px;
+				line-height: 1.2em;
+				font-weight: 400;
+				color: #000;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: center;
+				font-style: italic;
+
+				&:first-child{
+					background: url("images/amrest-redesign__feature-1.png") no-repeat center center;
+				}
+
+				&:nth-child(2){
+					background: url("images/amrest-redesign__feature-2.png") no-repeat center center;
+				}
+
+				&:nth-child(3){
+					background: url("images/amrest-redesign__feature-3.png") no-repeat center center;
+				}
+
+				&:nth-child(4){
+					min-height: 180px;
+					background: url("images/amrest-redesign__feature-4.png") no-repeat center 15px;
+				}
+
+				&:nth-child(5){
+					background: url("images/amrest-redesign__feature-5.png") no-repeat center 10px;
+				}
+
+				&:last-child{
+					background: url("images/amrest-redesign__feature-6.png") no-repeat center top;
+				}
+			}
+		}
+
+		&-site-photo{
+			margin: 0 auto;
+			display: block;
+			box-shadow: 0 0 5px 5px rgba(0,0,0,.25);
+		}
+	}
+
+	&__interface{
+		padding: 50px 0 0;
+		background: url("images/amrest-redesign-bg.jpg") repeat 0 0;
+
+		h2{
+			margin: 0 80px 55px;
+			font-family: TT-Slabs-Bold, Helvetica, sans-serif;
+			font-size: 50px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #cbcbcb;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+		}
+
+		&-elements{
+			margin: 0 auto;
+			display: block;
+		}
+
+		&-emoji{
+			background: url("images/amrest-redesign__interface-emoji.jpg") no-repeat center top;
+			min-height: 949px;
+		}
+	}
+
+	&__brend-pages{
+		padding: 95px 0 0;
+		box-sizing: border-box;
+		min-height: 1862px;
+		background: url("images/amrest-redesign__brend-pages.jpg") no-repeat center top;
+
+		h2{
+			margin: 0;
+			font-family: TT-Slabs-Bold, Helvetica, sans-serif;
+			font-size: 50px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #cbcbcb;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__calendar{
+		padding: 30px 0 0;
+		background: #e9e9e9;
+
+		h2{
+			margin: 0 80px 55px;
+			font-family: TT-Slabs-Bold, Helvetica, sans-serif;
+			font-size: 50px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #cbcbcb;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+		}
+
+		p{
+			margin: 0 80px 55px;
+			max-width: 840px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #cbcbcb;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			font-style: italic;
+		}
+
+		&-screen{
+			box-sizing: border-box;
+			min-height: 1462px;
+			background: url("images/amrest-redesign__calendar.jpg") no-repeat center top;
+		}
+	}
+
+	&__archive{
+		min-height: 1466px;
+		padding: 20px 0 0;
+		box-sizing: border-box;
+		background: url("images/amrest-redesign__archive.jpg") no-repeat center top;
+
+		h2{
+			margin: 0;
+			font-family: TT-Slabs-Bold, Helvetica, sans-serif;
+			font-size: 50px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #cbcbcb;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__account{
+		min-height: 2255px;
+		padding: 20px 0 0;
+		box-sizing: border-box;
+		background: url("images/amrest-redesign__account.jpg") no-repeat center top;
+
+		h2{
+			margin: 0;
+			font-family: TT-Slabs-Bold, Helvetica, sans-serif;
+			font-size: 50px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+}
+/*end of amrest-redesign*/

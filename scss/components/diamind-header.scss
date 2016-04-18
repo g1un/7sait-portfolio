@@ -1,0 +1,17 @@
+/*diamind-header*/
+.diamind-header,
+.portfolio-diamind .h1-wrap{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1366px;
+	background: url("images/diamind-header-bg.jpg") no-repeat center top;
+	min-height: 131px;
+	text-align: center;
+
+	h1{
+		margin: 32px 0 0;
+	}
+}
+/*end of diamind-header*/

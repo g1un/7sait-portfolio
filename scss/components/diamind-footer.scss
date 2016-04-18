@@ -1,0 +1,72 @@
+/*diamind-footer*/
+.diamind-footer{
+	min-height: 280px;
+	background: url("images/diamind-footer-bg.jpg") no-repeat center 0;
+	font-size: 0;
+	text-align: center;
+
+	&__prices{
+		margin: 115px 90px 0 0;
+		padding: 30px 0;
+		width: 295px;
+		display: inline-block;
+		vertical-align: top;
+		border: 1px solid #000;
+		border-radius: 8px;
+		font-family: PT-Sans-Pro-Caption, Helvetica, sans-serif;
+		font-size: 26px;
+		line-height: 1.2em;
+		font-weight: 400;
+		color: #000;
+		text-transform: none;
+		text-decoration: none;
+		letter-spacing: 0;
+		text-align: center;
+	}
+
+	&__logo{
+		margin: 75px 90px 0 0;
+		display: inline-block;
+		vertical-align: top;
+		width: 265px;
+		text-align: center;
+	}
+
+	&__site{
+		margin: 30px 0 0;
+		padding: 0 0 0 30px;
+		display: inline-block;
+		vertical-align: top;
+		background: url("images/diamind-footer__site.png") no-repeat 0 center;
+		font-family: Ubuntu-Regular, Helvetica, sans-serif;
+		font-size: 18px;
+		line-height: 1.2em;
+		font-weight: 400;
+		color: #000;
+		text-transform: none;
+		text-decoration: none;
+		letter-spacing: 0;
+		text-align: center;
+	}
+
+	&__order{
+		margin: 115px 0 0 0;
+		padding: 20px 0 0;
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: top;
+		width: 324px;
+		height: 86px;
+		background: url("images/diamind-footer__order.png") no-repeat 0 0;
+		font-family: PT-Sans-Regular, Helvetica, sans-serif;
+		font-size: 35px;
+		line-height: 1.2em;
+		font-weight: 400;
+		color: #fff;
+		text-transform: none;
+		text-decoration: none;
+		letter-spacing: 0;
+		text-align: center;
+	}
+}
+/*end of diamind-footer*/
