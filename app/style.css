@@ -3,7 +3,7 @@ html, body, p, h1, h2, h3, h4 { margin: 0; padding: 0; }
 
 ul { margin: 0; padding: 0; list-style: none; }
 
-.clearfix { clear: both; display: table; content: ''; }
+.clearfix::after { clear: both; display: table; content: ''; }
 
 /*end of general*/
 /*fonts*/
@@ -18,6 +18,14 @@ ul { margin: 0; padding: 0; list-style: none; }
 @font-face { font-family: TT-Slabs-Bold; src: url(fonts/TT-Slabs-Bold.otf); font-weight: normal; }
 
 @font-face { font-family: TT-Slabs-Bold; src: url(fonts/TT-Slabs-Bold.ttf); font-weight: normal; }
+
+@font-face { font-family: MyriadPro-Regular; src: url(fonts/MyriadPro-Regular.otf); font-weight: normal; }
+
+@font-face { font-family: MyriadPro-Regular; src: url(fonts/MyriadPro-Regular.ttf); font-weight: normal; }
+
+@font-face { font-family: TT-Slabs-Regular; src: url(fonts/TT-Slabs-Regular.otf); font-weight: normal; }
+
+@font-face { font-family: TT-Slabs-Regular; src: url(fonts/TT-Slabs-Regular.ttf); font-weight: normal; }
 
 /*end of fonts*/
 /*portfolio-footer*/
@@ -38,6 +46,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 .portfolio-footer--shipstores { background: url("images/shipstores-portfolio-header__bg--blue.jpg") repeat center 0; }
 
 .portfolio-footer--shipstores .portfolio-footer__logo { width: auto; margin-top: 110px; }
+
+.portfolio-footer--ampeople { background: url("images/ampeople-portfolio-footer.jpg") repeat center 0; }
+
+.portfolio-footer--ampeople .portfolio-footer__logo { margin-top: 40px; }
 
 /*end of portfolio-footer*/
 /*DIAMIND*/
@@ -199,6 +211,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 /*end of amrest-redesign*/
 /*end of AMREST REDESIGN*/
 /*SHIPSTORES*/
+/*shipstores-portfolio-logo*/
+.shipstores-portfolio-logo { display: inline-block; vertical-align: top; line-height: 0; }
+
+.shipstores-portfolio-logo img { max-width: 100%; }
+
+/*end of shipstores-portfolio-logo*/
 /*shipstores-portfolio*/
 .shipstores-portfolio { margin: 0 auto; max-width: 1366px; min-width: 1260px; }
 
@@ -276,3 +294,115 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /*end of shipstores-portfolio-header*/
 /*end of SHIPSTORES*/
+/*AMPEOPLE*/
+/*ampeople-portfolio-header*/
+.ampeople-portfolio-header.h1-wrap h1 { margin: 0; padding: 10px 0 20px; background: -webkit-linear-gradient(top, #fff, #eee); background: linear-gradient(to bottom, #fff, #eee); text-align: center; font-size: 0; line-height: 0; }
+
+.ampeople-portfolio-header.h1-wrap h1 span { margin: 0 20px -5px 0; display: inline-block; vertical-align: bottom; font-family: MyriadPro-Regular, Helvetica, sans-serif; font-size: 24px; line-height: 1.2em; font-weight: 400; color: #425051; text-transform: none; text-decoration: none; letter-spacing: 0; }
+
+/*end of ampeople-portfolio-header*/
+/**/
+/*end of ampeople-portfolio*/
+/*ampeople-portfolio*/
+.ampeople-portfolio { margin: 0 auto; max-width: 1366px; min-width: 1260px; }
+
+.ampeople-portfolio__promo { padding: 50px 0 0; box-sizing: border-box; min-height: 1475px; background: url("images/ampeople-portfolio__promo-bg.jpg") no-repeat center top; }
+
+.ampeople-portfolio__promo h2 { margin: 0 0 45px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 36px; line-height: 1.2em; font-weight: 400; color: #50f8f6; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio__promo p { margin: 0 auto; max-width: 900px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio__comment { padding: 25px 75px; box-sizing: border-box; background: #a4d5da; box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25); }
+
+.ampeople-portfolio__comment p { margin: 0; float: left; max-width: 900px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.5em; font-weight: 400; color: #224347; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; }
+
+.ampeople-portfolio__comment p b { display: block; font-weight: 700; font-style: normal; }
+
+.ampeople-portfolio__comment img { margin: 0; display: block; float: right; width: 152px; }
+
+.ampeople-portfolio__development { padding: 50px 0 0; box-sizing: border-box; min-height: 2990px; background: url("images/ampeople-portfolio__development-bg.jpg") no-repeat center top; }
+
+.ampeople-portfolio__development h2 { margin: 0 0 60px 100px; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1em; font-weight: 700; color: #1bb9b7; text-transform: none; text-decoration: none; letter-spacing: 0; }
+
+.ampeople-portfolio__development h2 span { display: block; margin: 0 0 0 185px; }
+
+.ampeople-portfolio__development p { margin: 0 130px 500px 0; width: 530px; float: right; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.5em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; }
+
+.ampeople-portfolio__development-interface { display: block; margin: 0 auto 80px; }
+
+.ampeople-portfolio__development-interface-title { margin: 0 auto 60px; clear: both; width: 1020px; opacity: .73; font-family: Verdana, Helvetica, sans-serif; font-size: 136px; line-height: 1.2em; font-weight: 700; color: #2d595a; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: right; }
+
+.ampeople-portfolio__development-elements { display: block; margin: 0 auto; }
+
+.ampeople-portfolio__development-elements-title { margin: 0 auto 35px; width: 1200px; opacity: .28; font-family: Verdana, Helvetica, sans-serif; font-size: 88px; line-height: 1.2em; font-weight: 700; color: #2d595a; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.ampeople-portfolio__palette { min-height: 2422px; background: url("images/ampeople-portfolio__palette-bg.jpg") no-repeat center top; }
+
+.ampeople-portfolio__palette h2 { margin: 0 0 220px; padding: 20px; opacity: .13; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1.2em; font-weight: 700; color: #4d959d; text-transform: none; text-decoration: none; letter-spacing: -.05em; text-align: right; }
+
+.ampeople-portfolio__palette h3 { margin: 0; padding: 20px; opacity: .25; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1.2em; font-weight: 700; color: #52b58f; text-transform: none; text-decoration: none; letter-spacing: -.05em; text-align: right; }
+
+.ampeople-portfolio__photo { min-height: 852px; background: url("images/ampeople-portfolio__photo.jpg") no-repeat center top; }
+
+/*end of ampeople-portfolio*/
+/*end of AMPEOPLE*/
+/*AMREST-MOBILE*/
+/*amrest-mobile*/
+.amrest-mobile { margin: 0 auto; max-width: 1366px; min-width: 1260px; }
+
+.amrest-mobile__promo { padding: 30px 0 0; box-sizing: border-box; min-height: 765px; background: url("images/amrest-mobile__promo-bg.jpg") no-repeat center top; }
+
+.amrest-mobile__promo h2 { margin: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 36px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.amrest-mobile__work { min-height: 1625px; background: url("images/amrest-mobile__work-bg.jpg") no-repeat center top; text-align: center; }
+
+.amrest-mobile__work h2 { margin: 0 auto; width: 1180px; font-family: TT-Slabs-Bold, Helvetica, sans-serif; font-size: 50px; line-height: 1.2em; font-weight: 400; color: #363636; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.amrest-mobile__work-steps { margin: -35px 0 130px; display: inline-block; vertical-align: top; width: 1260px; }
+
+.amrest-mobile__work-steps li { display: block; }
+
+.amrest-mobile__work-steps li:first-child { float: right; clear: both; }
+
+.amrest-mobile__work-steps li:nth-child(2) { margin: 50px 0 0; float: left; clear: both; }
+
+.amrest-mobile__work-steps li:nth-child(2) h3 { text-align: right; }
+
+.amrest-mobile__work-steps li:last-child { margin: 330px 0 0; float: right; clear: both; width: 50%; padding: 0 0 0 40px; box-sizing: border-box; text-align: left; }
+
+.amrest-mobile__work-steps h3 { margin: 0 0 30px; display: inline-block; vertical-align: top; font-family: TT-Slabs-Regular, Helvetica, sans-serif; font-size: 34px; line-height: 1.2em; font-weight: 400; color: #363636; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.amrest-mobile__work-steps h3 b { display: inline-block; font-family: TT-Slabs-Bold, Helvetica, sans-serif; font-weight: 400; }
+
+.amrest-mobile__work-steps p { margin: 0; width: 570px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; font-style: italic; }
+
+.amrest-mobile__work-palette { margin: 0; clear: both; float: right; width: 300px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; font-style: italic; }
+
+.amrest-mobile__solutions { padding: 95px 0 0; box-sizing: border-box; min-height: 1324px; background: url("images/amrest-mobile__solutions-bg.jpg") no-repeat center top; text-align: center; }
+
+.amrest-mobile__solutions h2 { margin: 0 0 45px; padding: 0 30px 40px; display: inline-block; vertical-align: top; border-bottom: 2px solid #fff; font-family: TT-Slabs-Bold, Helvetica, sans-serif; font-size: 50px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.amrest-mobile__solutions p { margin: 0 auto; width: 500px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; font-style: italic; }
+
+.amrest-mobile__account { padding: 10px 0 0; box-sizing: border-box; min-height: 1723px; background: url("images/amrest-mobile__account-bg.jpg") no-repeat center top; }
+
+.amrest-mobile__account h2 { margin: 0 auto 50px; width: 1230px; font-family: TT-Slabs-Bold, Helvetica, sans-serif; font-size: 50px; line-height: 1.2em; font-weight: 400; color: #b50043; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.amrest-mobile__account p { margin: 0 auto; width: 1230px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #b50043; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; font-style: italic; }
+
+.amrest-mobile__history { padding: 30px 0 0; box-sizing: border-box; min-height: 1881px; background: url("images/amrest-mobile__history-bg.jpg") no-repeat center top; }
+
+.amrest-mobile__history-wrapper { margin: 0 auto; width: 1250px; }
+
+.amrest-mobile__history h2 { margin: 0 auto 50px; float: right; clear: both; width: 460px; font-family: TT-Slabs-Bold, Helvetica, sans-serif; font-size: 50px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: -.01em; text-align: left; }
+
+.amrest-mobile__history p { margin: 0 auto; float: right; clear: both; width: 460px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.5em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; font-style: italic; }
+
+/*end of amrest-mobile*/
+/*amrest-mobile-header*/
+.amrest-mobile-header.h1-wrap { padding: 15px 0 0; box-sizing: border-box; min-height: 131px; background: url("images/amrest-redesign-bg.jpg") repeat center top; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); text-align: center; position: relative; }
+
+.amrest-mobile-header.h1-wrap h1 { margin: 0; }
+
+/*end of amrest-mobile-header*/
+/*end of AMREST-MOBILE*/

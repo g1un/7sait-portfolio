@@ -16,7 +16,7 @@ ul{
 	list-style: none;
 }
 
-.clearfix{
+.clearfix::after{
 	clear: both;
 	display: table;
 	content: '';

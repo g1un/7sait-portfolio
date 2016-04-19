@@ -93,5 +93,16 @@
 			}
 		}
 	}
+
+	&--ampeople{
+		background: url("images/ampeople-portfolio-footer.jpg") repeat center 0;
+
+		.portfolio-footer{
+
+			&__logo{
+				margin-top: 40px;
+			}
+		}
+	}
 }
 /*end of portfolio-footer*/

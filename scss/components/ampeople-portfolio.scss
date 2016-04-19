@@ -1,0 +1,196 @@
+/*ampeople-portfolio*/
+.ampeople-portfolio{
+	margin: 0 auto;
+	max-width: 1366px;
+	min-width: 1260px;
+
+	&__promo{
+		padding: 50px 0 0;
+		box-sizing: border-box;
+		min-height: 1475px;
+		background: url("images/ampeople-portfolio__promo-bg.jpg") no-repeat center top;
+
+		h2{
+			margin: 0 0 45px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 36px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #50f8f6;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 auto;
+			max-width: 900px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__comment{
+		padding: 25px 75px;
+		box-sizing: border-box;
+		background: #a4d5da;
+		box-shadow: 0 0 10px 5px rgba(0,0,0,.25);
+
+		p{
+			margin: 0;
+			float: left;
+			max-width: 900px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.5em;
+			font-weight: 400;
+			color: #224347;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			font-style: italic;
+
+			b{
+				display: block;
+				font-weight: 700;
+				font-style: normal;
+			}
+		}
+
+		img{
+			margin: 0;
+			display: block;
+			float: right;
+			width: 152px;
+		}
+	}
+
+	&__development{
+		padding: 50px 0 0;
+		box-sizing: border-box;
+		min-height: 2990px;
+		background: url("images/ampeople-portfolio__development-bg.jpg") no-repeat center top;
+
+		h2{
+			margin: 0 0 60px 100px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 126px;
+			line-height: 1em;
+			font-weight: 700;
+			color: #1bb9b7;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+
+			span{
+				display: block;
+				margin: 0 0 0 185px;
+			}
+		}
+
+		p{
+			margin: 0 130px 500px 0;
+			width: 530px;
+			float: right;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.5em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			font-style: italic;
+		}
+
+		&-interface{
+			display: block;
+			margin: 0 auto 80px;
+
+			&-title{
+				margin: 0 auto 60px;
+				clear: both;
+				width: 1020px;
+				opacity: .73;
+				font-family: Verdana, Helvetica, sans-serif;
+				font-size: 136px;
+				line-height: 1.2em;
+				font-weight: 700;
+				color: #2d595a;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: right;
+			}
+		}
+
+		&-elements{
+			display: block;
+			margin: 0 auto;
+
+			&-title{
+				margin: 0 auto 35px;
+				width: 1200px;
+				opacity: .28;
+				font-family: Verdana, Helvetica, sans-serif;
+				font-size: 88px;
+				line-height: 1.2em;
+				font-weight: 700;
+				color: #2d595a;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: left;
+			}
+		}
+	}
+
+	&__palette{
+		min-height: 2422px;
+		background: url("images/ampeople-portfolio__palette-bg.jpg") no-repeat center top;
+
+		h2{
+			margin: 0 0 220px;
+			padding: 20px;
+			opacity: .13;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 126px;
+			line-height: 1.2em;
+			font-weight: 700;
+			color: #4d959d;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: -.05em;
+			text-align: right;
+		}
+
+		h3{
+			margin: 0;
+			padding: 20px;
+			opacity: .25;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 126px;
+			line-height: 1.2em;
+			font-weight: 700;
+			color: #52b58f;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: -.05em;
+			text-align: right;
+		}
+	}
+	
+	&__photo{
+		min-height: 852px;
+		background: url("images/ampeople-portfolio__photo.jpg") no-repeat center top;
+	}
+}
+/*end of ampeople-portfolio*/
