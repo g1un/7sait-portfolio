@@ -1,6 +1,7 @@
 /*portfolio-footer*/
 .portfolio-footer{
 	min-height: 280px;
+	min-width: 1260px;
 	background: url("images/diamind-footer-bg.jpg") no-repeat center 0;
 	font-size: 0;
 	text-align: center;
@@ -101,6 +102,30 @@
 
 			&__logo{
 				margin-top: 40px;
+			}
+		}
+	}
+
+	&--old-coin{
+		background: #d6d4bb;
+
+		.portfolio-footer{
+
+			&__logo{
+				margin-top: 110px;
+
+				h2{
+					margin: 0;
+					font-family: PT-Serif-Pro-Narrow-Book, Helvetica, sans-serif;
+					font-size: 32px;
+					line-height: 1.2em;
+					font-weight: 400;
+					color: #333129;
+					text-transform: uppercase;
+					text-decoration: none;
+					letter-spacing: 0;
+					text-align: center;
+				}
 			}
 		}
 	}
