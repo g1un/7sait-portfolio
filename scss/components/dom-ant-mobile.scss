@@ -1,0 +1,91 @@
+/*dom-ant-mobile*/
+.dom-ant-mobile{
+	margin: 0 auto;
+	width: 1260px;
+
+	&__promo{
+		padding: 55px 0 0;
+		box-sizing: border-box;
+		min-height: 1552px;
+		background: url("images/dom-ant-mobile__promo-bg.jpg") no-repeat center top;
+
+		&-antenna{
+			margin: 0 auto;
+			width: 0;
+			height: 0;
+			line-height: 0;
+			position: relative;
+
+			img{
+				position: absolute;
+				bottom: -65px;
+				left: 252px;
+				z-index: 2;
+			}
+		}
+
+		h2{
+			margin: 0 0 30px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 33px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #454545;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 auto;
+			width: 960px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 17px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #454545;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__features{
+		min-height: 1704px;
+		background: url("images/dom-ant-mobile__features.jpg") no-repeat center top;
+	}
+
+	&__icons{
+		padding: 230px 0 0;
+		box-sizing: border-box;
+		min-height: 2200px;
+		background: url("images/dom-ant-mobile__icons-bg.jpg") no-repeat center top;
+
+		&-wrapper{
+			margin: 0 auto;
+			width: 1030px;
+		}
+
+		p,
+		h2{
+			margin: 0;
+			font-family: Neris-Thin, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 0 305px;
+			width: 370px;
+		}
+	}
+}
+/*end of dom-ant-mobile*/

@@ -55,12 +55,15 @@
 				&:first-child{
 					float: right;
 					clear: both;
+					min-height: 220px;
+					text-align: left;
 				}
 
 				&:nth-child(2){
-					margin: 50px 0 0;
+					margin: 10px 0 0;
 					float: left;
 					clear: both;
+					min-height: 220px;
 
 					h3{
 						text-align: right;
@@ -68,7 +71,7 @@
 				}
 
 				&:last-child{
-					margin: 330px 0 0;
+					margin: 305px 0 0;
 					float: right;
 					clear: both;
 					width: 50%;

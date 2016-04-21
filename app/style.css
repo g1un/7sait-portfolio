@@ -35,6 +35,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 @font-face { font-family: PT-Serif-Pro-Bold; src: url(fonts/PT-Serif-Pro-Bold.ttf); font-weight: normal; }
 
+@font-face { font-family: Neris-Thin; src: url(fonts/Neris-Thin.otf); font-weight: normal; }
+
+@font-face { font-family: Neris-Thin; src: url(fonts/Neris-Thin.ttf); font-weight: normal; }
+
 /*end of fonts*/
 /*portfolio-footer*/
 .portfolio-footer { min-height: 280px; min-width: 1260px; background: url("images/diamind-footer-bg.jpg") no-repeat center 0; font-size: 0; text-align: center; }
@@ -43,11 +47,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .portfolio-footer__logo { margin: 75px 90px 0 0; display: inline-block; vertical-align: top; width: 265px; text-align: center; text-decoration: none; color: #000; }
 
+.portfolio-footer__logo img { max-width: 100%; }
+
 .portfolio-footer__site { margin: 30px 0 0; padding: 0 0 0 30px; display: inline-block; vertical-align: top; background: url("images/diamind-footer__site.png") no-repeat 0 center; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
 
 .portfolio-footer__order { margin: 115px 0 0 0; padding: 20px 0 0; box-sizing: border-box; display: inline-block; vertical-align: top; width: 324px; height: 86px; background: url("images/portfolio-footer__order.png") no-repeat 0 0; font-family: PT-Sans-Regular, Helvetica, sans-serif; font-size: 35px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
 
-.portfolio-footer--amrest-redesign { background: url("images/amrest-redesign-bg.jpg") repeat center 0; }
+.portfolio-footer--amrest-redesign { background: url("images/amrest-redesign-bg.jpg") repeat center 0; min-width: 1260px; }
 
 .portfolio-footer--amrest-redesign .portfolio-footer__logo { margin-top: 40px; }
 
@@ -63,7 +69,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .portfolio-footer--old-coin .portfolio-footer__logo { margin-top: 110px; }
 
+.portfolio-footer--old-coin .portfolio-footer__logo:hover, .portfolio-footer--old-coin .portfolio-footer__logo:focus { text-decoration: none; }
+
 .portfolio-footer--old-coin .portfolio-footer__logo h2 { margin: 0; font-family: PT-Serif-Pro-Narrow-Book, Helvetica, sans-serif; font-size: 32px; line-height: 1.2em; font-weight: 400; color: #333129; text-transform: uppercase; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.portfolio-footer--medart { background: #e2abac; }
+
+.portfolio-footer--medart .portfolio-logo { margin: 0 auto; width: 210px; }
+
+.portfolio-footer--medart .portfolio-footer__site { background: url("images/portfolio-footer__site--white.png") no-repeat 0 5px; color: #fff; }
+
+.portfolio-footer--dom-ant-mobile { min-height: 269px; background: url("images/dom-ant-mobile-footer-bg.jpg") repeat-x center top; }
+
+.portfolio-footer--dom-ant-mobile .portfolio-footer__site { background: url("images/portfolio-footer__site--white.png") no-repeat 0 5px; color: #fff; }
 
 /*end of portfolio-footer*/
 /*DIAMIND*/
@@ -234,13 +252,15 @@ ul { margin: 0; padding: 0; list-style: none; }
 /*shipstores-portfolio*/
 .shipstores-portfolio { margin: 0 auto; max-width: 1366px; min-width: 1260px; }
 
+.shipstores-portfolio p { padding: 0; }
+
 .shipstores-portfolio__promo { min-height: 1976px; background: url("images/shipstores-portfolio__promo.jpg") no-repeat center top; }
 
 .shipstores-portfolio__promo-text { margin: 0 auto; width: 735px; padding: 115px 0 0; text-align: center; }
 
 .shipstores-portfolio__promo-text h2 { margin: 0 0 35px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 36px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; }
 
-.shipstores-portfolio__promo-text p { margin: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; }
+.shipstores-portfolio__promo-text p { margin: 0 auto; width: 650px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; }
 
 .shipstores-portfolio__development { padding: 0 0 155px; background: #f4f4f4; text-align: center; position: relative; }
 
@@ -248,9 +268,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .shipstores-portfolio__development h2 { margin: 0 0 55px; font-family: Verdana, Helvetica, sans-serif; font-size: 60px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; }
 
-.shipstores-portfolio__development p { margin: 0 0 30px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; }
+.shipstores-portfolio__development p { margin: 0 auto 30px; width: 1150px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; }
 
-.shipstores-portfolio__development p:last-child { margin: 0; }
+.shipstores-portfolio__development p:last-child { margin: 0 auto; }
 
 .shipstores-portfolio__interface { padding: 145px 0 0; box-sizing: border-box; min-height: 2339px; background: #fafafa url("images/shipstores-portfolio__interface-bg.jpg") no-repeat center top; line-height: 0; }
 
@@ -304,13 +324,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /*end of shipstores-portfolio*/
 /*shipstores-portfolio-header*/
-.shipstores-portfolio-header { min-height: 130px; padding: 45px 0 0; box-sizing: border-box; text-align: center; background: url("images/shipstores-portfolio-header__bg.jpg") repeat center top; }
+.shipstores-portfolio-header { min-width: 1260px; min-height: 130px; box-sizing: border-box; text-align: center; background: url("images/shipstores-portfolio-header__bg.jpg") repeat center top; }
+
+.shipstores-portfolio-header h1 { padding: 45px 0 0; margin: 0; }
 
 /*end of shipstores-portfolio-header*/
 /*end of SHIPSTORES*/
 /*AMPEOPLE*/
 /*ampeople-portfolio-header*/
-.ampeople-portfolio-header.h1-wrap h1 { margin: 0; padding: 10px 0 20px; background: -webkit-linear-gradient(top, #fff, #eee); background: linear-gradient(to bottom, #fff, #eee); text-align: center; font-size: 0; line-height: 0; }
+.ampeople-portfolio-header { background: -webkit-linear-gradient(top, #fff, #eee); background: linear-gradient(to bottom, #fff, #eee); }
+
+.ampeople-portfolio-header.h1-wrap .breadcrumbs-wrap { max-width: 1366px; min-width: 1260px; }
+
+.ampeople-portfolio-header.h1-wrap h1 { margin: 0 auto; padding: 10px 0 20px; text-align: center; font-size: 0; line-height: 0; left: auto; }
 
 .ampeople-portfolio-header.h1-wrap h1 span { margin: 0 20px -5px 0; display: inline-block; vertical-align: bottom; font-family: MyriadPro-Regular, Helvetica, sans-serif; font-size: 24px; line-height: 1.2em; font-weight: 400; color: #425051; text-transform: none; text-decoration: none; letter-spacing: 0; }
 
@@ -352,7 +378,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .ampeople-portfolio__palette { min-height: 2422px; background: url("images/ampeople-portfolio__palette-bg.jpg") no-repeat center top; }
 
-.ampeople-portfolio__palette h2 { margin: 0 0 220px; padding: 20px; opacity: .13; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1.2em; font-weight: 700; color: #4d959d; text-transform: none; text-decoration: none; letter-spacing: -.05em; text-align: right; }
+.ampeople-portfolio__palette h2 { margin: 0 0 220px; padding: 20px; opacity: .13; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1.2em; font-weight: 700; color: #4d959d; text-transform: none; text-decoration: none; letter-spacing: -.07em; text-align: right; }
 
 .ampeople-portfolio__palette h3 { margin: 0; padding: 20px; opacity: .25; font-family: Verdana, Helvetica, sans-serif; font-size: 126px; line-height: 1.2em; font-weight: 700; color: #52b58f; text-transform: none; text-decoration: none; letter-spacing: -.05em; text-align: right; }
 
@@ -376,13 +402,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .amrest-mobile__work-steps li { display: block; }
 
-.amrest-mobile__work-steps li:first-child { float: right; clear: both; }
+.amrest-mobile__work-steps li:first-child { float: right; clear: both; min-height: 220px; text-align: left; }
 
-.amrest-mobile__work-steps li:nth-child(2) { margin: 50px 0 0; float: left; clear: both; }
+.amrest-mobile__work-steps li:nth-child(2) { margin: 10px 0 0; float: left; clear: both; min-height: 220px; }
 
 .amrest-mobile__work-steps li:nth-child(2) h3 { text-align: right; }
 
-.amrest-mobile__work-steps li:last-child { margin: 330px 0 0; float: right; clear: both; width: 50%; padding: 0 0 0 40px; box-sizing: border-box; text-align: left; }
+.amrest-mobile__work-steps li:last-child { margin: 305px 0 0; float: right; clear: both; width: 50%; padding: 0 0 0 40px; box-sizing: border-box; text-align: left; }
 
 .amrest-mobile__work-steps h3 { margin: 0 0 30px; display: inline-block; vertical-align: top; font-family: TT-Slabs-Regular, Helvetica, sans-serif; font-size: 34px; line-height: 1.2em; font-weight: 400; color: #363636; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
 
@@ -416,15 +442,19 @@ ul { margin: 0; padding: 0; list-style: none; }
 /*amrest-mobile-header*/
 .amrest-mobile-header.h1-wrap { padding: 15px 0 0; box-sizing: border-box; min-height: 131px; background: url("images/amrest-redesign-bg.jpg") repeat center top; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); text-align: center; position: relative; }
 
+.amrest-mobile-header.h1-wrap .breadcrumbs-wrap { max-width: 1366px; min-width: 1260px; }
+
 .amrest-mobile-header.h1-wrap h1 { margin: 0; }
 
 /*end of amrest-mobile-header*/
 /*end of AMREST-MOBILE*/
-/*OLD-COIN*/
+/*OLD-COIN-MOBILE*/
 /*old-coin-mobile-header*/
 .old-coin-mobile-header { min-width: 1260px; }
 
 .old-coin-mobile-header.h1-wrap { background: #dbd9c5; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); position: relative; z-index: 1; }
+
+.old-coin-mobile-header.h1-wrap .breadcrumbs-wrap { max-width: 1366px; min-width: 1260px; }
 
 .old-coin-mobile-header.h1-wrap h1 { margin: 0 auto; padding: 35px 0 30px; font-size: 0; line-height: 0; text-align: center; }
 
@@ -495,4 +525,64 @@ ul { margin: 0; padding: 0; list-style: none; }
 .old-coin-mobile__communication p { margin: 0; width: 390px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #464336; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
 
 /*end of old-coin-mobile*/
-/*end of OLD-COIN*/
+/*end of OLD-COIN-MOBILE*/
+/*MEDART-MOBILE*/
+/*medart-mobile-header*/
+.medart-mobile-header { margin: 0 auto; box-sizing: border-box; min-height: 189px; max-width: 1260px; background: url("images/medart-mobile-header-bg.jpg") no-repeat center top; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); position: relative; z-index: 1; }
+
+.medart-mobile-header h1 { margin: 0; padding: 40px 0 0; line-height: 0; text-align: center; }
+
+.medart-mobile-header h1 img { margin: 0; display: inline-block; vertical-align: top; }
+
+/*end of medart-mobile-header*/
+/*medart-mobile*/
+.medart-mobile { margin: 0 auto; width: 1260px; }
+
+.medart-mobile__promo { padding: 45px 0 0; box-sizing: border-box; min-height: 796px; background: url("images/medart-mobile__promo-bg.jpg") no-repeat center top; }
+
+.medart-mobile__promo h2 { margin: 0 0 55px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 33px; line-height: 1.2em; font-weight: 400; color: #454545; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.medart-mobile__promo p { margin: 0 auto; padding: 20px 60px 10px; box-sizing: border-box; min-height: 261px; width: 798px; background: url("images/medart-mobile__promo-text-bg.jpg") repeat-y center top; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 17px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.medart-mobile__features { min-height: 2336px; background: url("images/medart-mobile__features.jpg") no-repeat center top; }
+
+.medart-mobile__navigation { padding: 290px 0 0; box-sizing: border-box; min-height: 1706px; background: url("images/medart-mobile__navigation-bg.jpg") no-repeat center top; }
+
+.medart-mobile__navigation-wrapper { margin: 0 75px; }
+
+.medart-mobile__navigation p { margin: 0; width: 450px; font-family: Neris-Thin, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #696969; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+/*end of medart-mobile*/
+/*end of MEDART-MOBILE*/
+/*DOM-ANTENN-MOBILE*/
+/*dom-ant-mobile-header*/
+.dom-ant-mobile-header.h1-wrap { margin: 0; box-sizing: border-box; min-height: 189px; background: #22913d url("images/dom-ant-mobile-header-bg.jpg") no-repeat center top; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); z-index: 1; position: relative; }
+
+.dom-ant-mobile-header.h1-wrap h1 { margin: 0 auto; padding: 50px 0 0; width: 1260px; text-align: center; }
+
+/*end of dom-ant-mobile-header*/
+/*dom-ant-mobile*/
+.dom-ant-mobile { margin: 0 auto; width: 1260px; }
+
+.dom-ant-mobile__promo { padding: 55px 0 0; box-sizing: border-box; min-height: 1552px; background: url("images/dom-ant-mobile__promo-bg.jpg") no-repeat center top; }
+
+.dom-ant-mobile__promo-antenna { margin: 0 auto; width: 0; height: 0; line-height: 0; position: relative; }
+
+.dom-ant-mobile__promo-antenna img { position: absolute; bottom: -65px; left: 252px; z-index: 2; }
+
+.dom-ant-mobile__promo h2 { margin: 0 0 30px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 33px; line-height: 1.2em; font-weight: 400; color: #454545; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.dom-ant-mobile__promo p { margin: 0 auto; width: 960px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 17px; line-height: 1.2em; font-weight: 400; color: #454545; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.dom-ant-mobile__features { min-height: 1704px; background: url("images/dom-ant-mobile__features.jpg") no-repeat center top; }
+
+.dom-ant-mobile__icons { padding: 230px 0 0; box-sizing: border-box; min-height: 2200px; background: url("images/dom-ant-mobile__icons-bg.jpg") no-repeat center top; }
+
+.dom-ant-mobile__icons-wrapper { margin: 0 auto; width: 1030px; }
+
+.dom-ant-mobile__icons p, .dom-ant-mobile__icons h2 { margin: 0; font-family: Neris-Thin, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.dom-ant-mobile__icons p { margin: 0 0 305px; width: 370px; }
+
+/*end of dom-ant-mobile*/
+/*end of DOM-ANTENN-MOBILE*/

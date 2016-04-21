@@ -1,0 +1,74 @@
+/*medart-mobile*/
+.medart-mobile{
+	margin: 0 auto;
+	width: 1260px;
+
+	&__promo{
+		padding: 45px 0 0;
+		box-sizing: border-box;
+		min-height: 796px;
+		background: url("images/medart-mobile__promo-bg.jpg") no-repeat center top;
+
+		h2{
+			margin: 0 0 55px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 33px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #454545;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 auto;
+			padding: 20px 60px 10px;
+			box-sizing: border-box;
+			min-height: 261px;
+			width: 798px;
+			background: url("images/medart-mobile__promo-text-bg.jpg") repeat-y center top;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 17px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__features{
+		min-height: 2336px;
+		background: url("images/medart-mobile__features.jpg") no-repeat center top;
+	}
+
+	&__navigation{
+		padding: 290px 0 0;
+		box-sizing: border-box;
+		min-height: 1706px;
+		background: url("images/medart-mobile__navigation-bg.jpg") no-repeat center top;
+
+		&-wrapper{
+			margin: 0 75px;
+		}
+
+		p{
+			margin: 0;
+			width: 450px;
+			font-family: Neris-Thin, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #696969;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+}
+/*end of medart-mobile*/

@@ -1,0 +1,25 @@
+/*medart-mobile-header*/
+.medart-mobile-header{
+	margin: 0 auto;
+	box-sizing: border-box;
+	min-height: 189px;
+	max-width: 1260px;
+	background: url("images/medart-mobile-header-bg.jpg") no-repeat center top;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.25);
+	position: relative;
+	z-index: 1;
+
+	h1{
+		margin: 0;
+		padding: 40px 0 0;
+		line-height: 0;
+		text-align: center;
+
+		img{
+			margin: 0;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+}
+/*end of medart-mobile-header*/

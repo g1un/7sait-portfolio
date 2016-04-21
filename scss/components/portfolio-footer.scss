@@ -33,6 +33,10 @@
 		text-align: center;
 		text-decoration: none;
 		color: #000;
+
+		img{
+			max-width: 100%;
+		}
 	}
 
 	&__site{
@@ -74,6 +78,7 @@
 
 	&--amrest-redesign{
 		background: url("images/amrest-redesign-bg.jpg") repeat center 0;
+		min-width: 1260px;
 
 		.portfolio-footer{
 
@@ -114,6 +119,11 @@
 			&__logo{
 				margin-top: 110px;
 
+				&:hover,
+				&:focus{
+					text-decoration: none;
+				}
+
 				h2{
 					margin: 0;
 					font-family: PT-Serif-Pro-Narrow-Book, Helvetica, sans-serif;
@@ -126,6 +136,36 @@
 					letter-spacing: 0;
 					text-align: center;
 				}
+			}
+		}
+	}
+
+	&--medart{
+		background: #e2abac;
+
+		.portfolio-logo{
+			margin: 0 auto;
+			width: 210px;
+		}
+
+		.portfolio-footer{
+
+			&__site{
+				background: url("images/portfolio-footer__site--white.png") no-repeat 0 5px;
+				color: #fff;
+			}
+		}
+	}
+
+	&--dom-ant-mobile{
+		min-height: 269px;
+		background: url("images/dom-ant-mobile-footer-bg.jpg") repeat-x center top;
+
+		.portfolio-footer{
+
+			&__site{
+				background: url("images/portfolio-footer__site--white.png") no-repeat 0 5px;
+				color: #fff;
 			}
 		}
 	}

@@ -4,6 +4,10 @@
 	max-width: 1366px;
 	min-width: 1260px;
 
+	p{
+		padding: 0;
+	}
+
 	&__promo{
 		min-height: 1976px;
 		background: url("images/shipstores-portfolio__promo.jpg") no-repeat center top;
@@ -27,7 +31,8 @@
 			}
 
 			p{
-				margin: 0;
+				margin: 0 auto;
+				width: 650px;
 				font-family: Ubuntu-Regular, Helvetica, sans-serif;
 				font-size: 18px;
 				line-height: 1.2em;
@@ -69,7 +74,8 @@
 		}
 
 		p{
-			margin: 0 0 30px;
+			margin: 0 auto 30px;
+			width: 1150px;
 			font-family: Verdana, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
@@ -81,7 +87,7 @@
 			font-style: italic;
 
 			&:last-child{
-				margin: 0;
+				margin: 0 auto;
 			}
 		}
 	}
