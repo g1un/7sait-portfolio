@@ -117,7 +117,7 @@
 		.portfolio-footer{
 
 			&__logo{
-				margin-top: 110px;
+				margin-top: 140px;
 
 				&:hover,
 				&:focus{
@@ -136,6 +136,10 @@
 					letter-spacing: 0;
 					text-align: center;
 				}
+			}
+
+			&__site{
+				display: none;
 			}
 		}
 	}
@@ -173,6 +177,15 @@
 	&--sdelay-delo-mobile{
 		min-height: 280px;
 		background: #e6eaf6;
+
+		.portfolio-footer__logo{
+			margin-top: 110px;
+		}
+	}
+
+	&--amrest-business-school{
+		min-height: 280px;
+		background: #efefef;
 
 		.portfolio-footer__logo{
 			margin-top: 110px;

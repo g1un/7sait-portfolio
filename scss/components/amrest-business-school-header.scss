@@ -1,0 +1,26 @@
+/*amrest-business-school-header*/
+.amrest-business-school-header{
+	min-width: 1260px;
+
+	&.h1-wrap{
+		background: #f4f4f4;
+
+		.breadcrumbs-wrap{
+			margin: 0 auto;
+			max-width: 1366px;
+		}
+
+		h1{
+			margin: 0;
+			padding: 40px 0 40px;
+			text-align: center;
+			line-height: 0;
+
+			img{
+				max-width: 238px;
+			}
+		}
+	}
+
+}
+/*end of amrest-business-school-header*/

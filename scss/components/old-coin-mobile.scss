@@ -1,14 +1,15 @@
 /*old-coin-mobile*/
 .old-coin-mobile{
 	margin: 0 auto;
-	max-width: 1366px;
 	min-width: 1260px;
 
 	&__promo{
 		padding: 55px 0 0;
 		box-sizing: border-box;
-		min-height: 2106px;
-		background: url("images/old-coin-mobile__promo-bg.jpg") no-repeat center top;
+		min-height: 757px;
+		background: url("images/portfolio-old-coin-mobile/old-coin-mobile__promo-bg-3.png") no-repeat right bottom,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__promo-bg-2.png") no-repeat left bottom,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__promo-bg-1.jpg") repeat center top;
 
 		h2{
 			margin: 0 0 40px;
@@ -25,7 +26,9 @@
 
 		p{
 			margin: 0 auto;
-			width: 720px;
+			padding: 0 330px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
 			font-family: Ubuntu-Regular, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
@@ -36,10 +39,21 @@
 			letter-spacing: 0;
 			text-align: center;
 		}
+	}
 
-		h3{
-			margin: 640px auto 0;
-			width: 1180px;
+	&__meetings{
+		padding: 170px 0 0;
+		box-sizing: border-box;
+		min-height: 1343px;
+		background: url("images/portfolio-old-coin-mobile/old-coin-mobile__meetings-bg-2.png") no-repeat right top,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__meetings-bg-1.png") no-repeat left top,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__meetings-bg-3.jpg") repeat center top;
+
+		h2{
+			margin: 0 auto 100px;
+			padding: 0 95px;
+			box-sizing: border-box;
+			max-width: 1920px;
 			font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 			font-size: 54px;
 			line-height: 1.2em;
@@ -50,27 +64,41 @@
 			letter-spacing: 0;
 			text-align: left;
 		}
+
+		&-phones{
+			margin: 0 auto;
+			max-width: 1920px;
+			font-size: 0;
+			line-height: 0;
+			text-align: center;
+
+			li{
+				margin: 0;
+
+				&:first-child{
+					margin: 0 4% 0 0;
+					display: inline-block;
+					vertical-align: top;
+				}
+
+				&:last-child{
+					display: inline-block;
+					vertical-align: top;
+				}
+			}
+		}
 	}
 
 	&__prototyping{
+		margin: 0 auto;
 		padding: 140px 0 0;
 		min-height: 678px;
+		max-width: 1920px;
 		box-sizing: border-box;
-		background: url("images/old-coin-mobile__prototyping-bg.jpg") no-repeat center top;
-
-		&-wrapper{
-			margin: 0 auto;
-			width: 1245px;
-		}
-
-		&-text{
-			margin: 0;
-			float: right;
-			width: 410px;
-		}
+		background: url("images/portfolio-old-coin-mobile/old-coin-mobile__prototyping-bg.jpg") no-repeat 36px 77px;
 
 		h2{
-			margin: 0 0 40px;
+			margin: 0 40px 40px 860px;
 			font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 			font-size: 40px;
 			line-height: 1.2em;
@@ -83,7 +111,7 @@
 		}
 
 		p{
-			margin: 0;
+			margin: 0 40px 0 860px;
 			font-family: Ubuntu-Regular, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
@@ -99,16 +127,16 @@
 	&__interaction{
 		padding: 60px 0 0;
 		box-sizing: border-box;
-		min-height: 638px;
-		background: url("images/old-coin-mobile__interaction-bg.jpg") no-repeat center top;
-
-		&-wrapper{
-			margin: 0 auto;
-			width: 910px;
-		}
+		min-height: 637px;
+		background: url("images/portfolio-old-coin-mobile/old-coin-mobile__interaction-bg-1.png") no-repeat left bottom,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__interaction-bg.jpg") no-repeat right top,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__interaction-bg-2.jpg") repeat-x center top;
 
 		h2{
-			margin: 0 0 40px;
+			margin: 0 auto 40px;
+			padding: 0 220px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
 			font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 			font-size: 40px;
 			line-height: 1.2em;
@@ -121,8 +149,10 @@
 		}
 
 		p{
-			margin: 0;
-			width: 430px;
+			margin: 0 auto;
+			padding: 0 220px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
 			font-family: Ubuntu-Regular, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
@@ -140,12 +170,12 @@
 		background: #fff;
 
 		&-header{
-			margin: 35px auto 0;
+			margin: 15px auto 0;
 			padding: 0 0 45px;
-			width: 1200px;
+			max-width: 1920px;
 
 			h2{
-				margin: 0;
+				margin: 0 0 0 80px;
 				float: left;
 				font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 				font-size: 40px;
@@ -159,9 +189,7 @@
 			}
 
 			p{
-				margin: 0;
-				float: right;
-				width: 680px;
+				margin: 0 80px 0 630px;
 				font-family: Ubuntu-Regular, Helvetica, sans-serif;
 				font-size: 18px;
 				line-height: 1.2em;
@@ -176,30 +204,30 @@
 
 		&-scheme{
 			min-height: 1081px;
-			background: url("images/old-coin-mobile__functionality-scheme.jpg") no-repeat center top;
+			background: url("images/portfolio-old-coin-mobile/old-coin-mobile__functionality-scheme.jpg") no-repeat center top,
+									url("images/portfolio-old-coin-mobile/old-coin-mobile__functionality-bg.jpg") repeat center top;
 		}
 	}
 
 	&__tags{
-		padding: 60px 0 0;
-		box-sizing: border-box;
-		min-height: 882px;
-		background: url("images/old-coin-mobile__tags-bg.jpg") no-repeat center top;
+		padding: 0 0 66.67%;
+		background: url("images/portfolio-old-coin-mobile/old-coin-mobile__tags-bg-2.png") no-repeat center center,
+								url("images/portfolio-old-coin-mobile/old-coin-mobile__tags-bg-1.jpg") no-repeat center center;
+		background-size: 100% auto;
 
 		&-wrapper{
 			margin: 0 auto;
-			width: 1180px;
+			max-width: 1920px;
 		}
 
 		&-text{
-			margin: 0;
-			width: 300px;
+			margin: 0 100px 0 0;
+			width: 22%;
 			float: right;
 		}
 
 		h2{
-			margin: 0 0 30px;
-			max-width: 100%;
+			margin: 70px 0 30px;
 			font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 			font-size: 40px;
 			line-height: 1.2em;
@@ -213,9 +241,7 @@
 
 		p{
 			margin: 0;
-			max-width: 100%;
 			float: right;
-			width: 680px;
 			font-family: Ubuntu-Regular, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
@@ -229,20 +255,22 @@
 	}
 
 	&__communication{
-		padding: 100px 0 0;
-		box-sizing: border-box;
-		min-height: 1746px;
-		background: url("images/old-coin-mobile__communication.jpg") no-repeat center top;
+		background: linear-gradient(to right, #b6b19a, #abb6b2);
 
 		&-wrapper{
 			margin: 0 auto;
-			width: 1050px;
+			padding: 110px 0 0;
+			box-sizing: border-box;
+			min-height: 1746px;
+			max-width: 1920px;
+			background: url("images/portfolio-old-coin-mobile/old-coin-mobile__communication-wrapper-1.png") no-repeat center 110px,
+									url("images/portfolio-old-coin-mobile/old-coin-mobile__communication-wrapper-2.png") no-repeat 70% bottom;
 		}
 
 		h2,
 		h3{
-			margin: 0 0 700px;
-			width: 310px;
+			margin: 0 70px 710px 0;
+			width: 23%;
 			float: right;
 			font-family: PT-Serif-Pro-Bold, Helvetica, sans-serif;
 			font-size: 40px;
@@ -256,15 +284,15 @@
 		}
 
 		h3{
-			margin: 0 0 45px;
+			margin: 0 0 45px 70px;
 			float: none;
 			clear: both;
-			width: 390px;
+			width: 29%;
 		}
 
 		p{
-			margin: 0;
-			width: 390px;
+			margin: 0 0 0 70px;
+			width: 29%;
 			font-family: Ubuntu-Regular, Helvetica, sans-serif;
 			font-size: 18px;
 			line-height: 1.2em;
