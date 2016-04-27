@@ -258,14 +258,15 @@
 			margin: -350px auto 0;
 			padding: 0 0 0 870px;
 			box-sizing: border-box;
-			max-width: 1920px;
-			min-height: 1750px;
-			background: url("images/portfolio-amrest-mobile/amrest-mobile__history-bg-1.png") no-repeat right top,
-									url("images/portfolio-amrest-mobile/amrest-mobile__history-bg-2.png") no-repeat left bottom;
+			max-width: 2500px;
+			min-height: 2700px;
+			background: url("images/portfolio-amrest-mobile/amrest-mobile__history-bg-1.png") no-repeat center top,
+									url("images/portfolio-amrest-mobile/amrest-mobile__history-bg-2.png") no-repeat left 600px,
+									url("images/portfolio-amrest-mobile/amrest-mobile__tel-bg-3.png") repeat-x bottom center;
 		}
 
 		h2{
-			margin: 750px 10px 50px 0;
+			margin: 950px 10px 50px 0;
 			float: left;
 			clear: both;
 			//width: 32%;
@@ -303,9 +304,10 @@
 		background: #a30c32;
 
 		&-wrapper{
-			margin: -200px 0 0;
+			//margin: -1099px auto 0;
 			min-height: 1229px;
-			background: url("images/portfolio-amrest-mobile/amrest-mobile__tel-bg-2.png") no-repeat top center;
+			max-width: 2500px;
+			//background: url("images/portfolio-amrest-mobile/amrest-mobile__tel-bg-3.png") no-repeat top center;
 
 		}
 	}
