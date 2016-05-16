@@ -45,6 +45,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 @font-face { font-family: NeueHaasUnicaW1G-Light; src: url(fonts/NeueHaasUnicaW1G-Light.ttf); font-weight: normal; }
 
+@font-face { font-family: NeueHaasUnicaW1G-Medium; src: url(fonts/NeueHaasUnicaW1G-Medium.ttf); font-weight: normal; }
+
 /*end of fonts*/
 /*portfolio-footer*/
 .portfolio-footer { min-height: 280px; min-width: 1260px; background: url("images/diamind-footer-bg.jpg") no-repeat center 0; font-size: 0; text-align: center; }
@@ -342,9 +344,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .shipstores-portfolio__slider { padding: 120px 0 0; box-sizing: border-box; min-height: 1253px; background: url("images/portfolio-shipstores/shipstores-portfolio__slider-bg-1.png") repeat-x center top, url("images/portfolio-shipstores/shipstores-portfolio-header__bg-4.jpg") repeat center top; text-align: center; }
 
-.shipstores-portfolio__slider-wrapper { margin: 0 0 0 700px; padding: 0; display: inline-block; vertical-align: top; list-style: none; width: 387px; height: 386px; overflow: hidden; border-radius: 50%; line-height: 0; position: relative; }
+.shipstores-portfolio__slider-wrapper { margin: 0 0 0 700px; padding: 0; display: inline-block; vertical-align: top; list-style: none; width: 387px; height: 386px; overflow: hidden; border-radius: 50%; line-height: 0; background: url("images/portfolio-shipstores/shipstores-portfolio__slider-bg.png") no-repeat center top; position: relative; }
 
-.shipstores-portfolio__slider-wrapper li { position: absolute; top: 0; }
+.shipstores-portfolio__slider-wrapper::after { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: url("images/portfolio-shipstores/shipstores-portfolio__slider-bg-2.png") no-repeat center top; }
+
+.shipstores-portfolio__slider-wrapper li { padding: 95px 0 0 50px; box-sizing: border-box; min-width: 387px; text-align: left; position: absolute; top: 0; }
 
 .shipstores-portfolio__slider-wrapper li:first-child { left: 0; }
 
@@ -352,7 +356,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .shipstores-portfolio__slider-wrapper li:last-child { left: -774px; }
 
-.shipstores-portfolio__slider-wrapper li p { margin: 0; padding: 0; width: 290px; position: absolute; top: 210px; left: 50px; font-family: NeueHaasUnicaW1G-Light, Helvetica, sans-serif; font-size: 16px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+.shipstores-portfolio__slider-wrapper li img { margin: 0 20px 0 0; display: inline-block; vertical-align: middle; }
+
+.shipstores-portfolio__slider-wrapper li h3 { margin: 0; display: inline-block; vertical-align: middle; font-family: NeueHaasUnicaW1G-Medium, Helvetica, sans-serif; font-size: 24px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: uppercase; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.shipstores-portfolio__slider-wrapper li p { margin: 20px 0 0; padding: 0; width: 290px; font-family: NeueHaasUnicaW1G-Light, Helvetica, sans-serif; font-size: 16px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: -.01em; text-align: left; }
 
 /*end of shipstores-portfolio*/
 /*shipstores-portfolio-header*/
