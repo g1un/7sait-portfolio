@@ -197,7 +197,7 @@
 
 		&-auction{
 			margin: 0 auto;
-			padding: 0 50px 0;
+			padding: 0 15px 0;
 			box-sizing: border-box;
 			max-width: 1366px;
 			min-height: 1000px;
@@ -206,10 +206,10 @@
 									url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-3.png") no-repeat 35px top;
 
 			h2{
-				margin: 0 0 40px;
-				float: right;
-				clear: both;
-				width: 320px;
+				margin: 0 0 40px 72%;
+				//float: right;
+				//clear: both;
+				//width: 320px;
 				font-family: Verdana, Helvetica, sans-serif;
 				font-size: 48px;
 				line-height: 1.2em;
@@ -222,10 +222,10 @@
 			}
 
 			p{
-				margin: 0;
-				float: right;
-				clear: both;
-				width: 320px;
+				margin: 0 0 0 72%;
+				//float: right;
+				//clear: both;
+				//width: 320px;
 				font-family: Verdana, Helvetica, sans-serif;
 				font-size: 18px;
 				line-height: 1.5em;
@@ -236,6 +236,17 @@
 				letter-spacing: 0;
 				font-style: italic;
 				text-align: left;
+			}
+
+			@media (max-width: 1365px){
+
+				h2 {
+					margin: 0 0 40px 78%;
+				}
+
+				p {
+					margin: 0 0 0 78%;
+				}
 			}
 		}
 

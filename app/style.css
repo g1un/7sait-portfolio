@@ -316,11 +316,14 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .shipstores-portfolio__posibilities { padding: 165px 0 0; min-height: 2800px; background: url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-1.png") no-repeat center top/100% 125px, url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-4.png") repeat-x center bottom, url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-2.png") repeat-x center top, url("images/portfolio-shipstores/shipstores-portfolio-header__bg-4.jpg") repeat center top; }
 
-.shipstores-portfolio__posibilities-auction { margin: 0 auto; padding: 0 50px 0; box-sizing: border-box; max-width: 1366px; min-height: 1000px; line-height: 0; background: url("images/portfolio-shipstores/shipstores-portfolio__posibilities-auction-mask.png") no-repeat right 490px, url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-3.png") no-repeat 35px top; }
+.shipstores-portfolio__posibilities-auction { margin: 0 auto; padding: 0 15px 0; box-sizing: border-box; max-width: 1366px; min-height: 1000px; line-height: 0; background: url("images/portfolio-shipstores/shipstores-portfolio__posibilities-auction-mask.png") no-repeat right 490px, url("images/portfolio-shipstores/shipstores-portfolio__posibilities-bg-3.png") no-repeat 35px top; }
 
-.shipstores-portfolio__posibilities-auction h2 { margin: 0 0 40px; float: right; clear: both; width: 320px; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 700; color: #0b68e4; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+.shipstores-portfolio__posibilities-auction h2 { margin: 0 0 40px 72%; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 700; color: #0b68e4; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
 
-.shipstores-portfolio__posibilities-auction p { margin: 0; float: right; clear: both; width: 320px; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.5em; font-weight: 400; color: #2078e7; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; text-align: left; }
+.shipstores-portfolio__posibilities-auction p { margin: 0 0 0 72%; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.5em; font-weight: 400; color: #2078e7; text-transform: none; text-decoration: none; letter-spacing: 0; font-style: italic; text-align: left; }
+
+@media (max-width: 1365px) { .shipstores-portfolio__posibilities-auction h2 { margin: 0 0 40px 78%; }
+  .shipstores-portfolio__posibilities-auction p { margin: 0 0 0 78%; } }
 
 .shipstores-portfolio__posibilities-finance { margin: 0 0 145px; text-align: center; line-height: 0; }
 
