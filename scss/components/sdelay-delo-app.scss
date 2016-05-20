@@ -1,0 +1,330 @@
+/*sdelay-delo-app*/
+.sdelay-delo-app{
+
+	&__promo{
+		margin: 0 auto;
+		padding: 55px 0 0;
+		box-sizing: border-box;
+		min-width: 1260px;
+		min-height: 533px;
+		background: linear-gradient(to top, rgba(255,213,79,1), rgba(255,213,79,0)),
+								linear-gradient(rgba(0,0,0,.53), rgba(0,0,0,.53)),
+								url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-2.png") no-repeat right top,
+								url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-1.jpg") repeat center top;
+		position: relative;
+
+		h2{
+			margin: 0 auto 30px;
+			padding: 0;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 36px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 auto 55px;
+			padding: 0 20px;
+			box-sizing: border-box;
+			max-width: 1920px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		&-list{
+			margin: 0 0 50px;
+			font-size: 0;
+			text-align: center;
+
+			li{
+				margin: 0 55px;
+				display: inline-block;
+				vertical-align: top;
+
+				h3{
+					margin: 0;
+					font-family: Ubuntu-Regular, Helvetica, sans-serif;
+					font-size: 72px;
+					line-height: 1.2em;
+					font-weight: 400;
+					color: #b6ee18;
+					text-transform: none;
+					text-decoration: none;
+					letter-spacing: 0;
+					text-align: center;
+				}
+
+				p{
+					margin: 0;
+				}
+
+				&:last-child,
+				&:first-child{
+					min-width: 170px;
+				}
+			}
+		}
+
+		&-img{
+			margin: -200px 0 0;
+			line-height: 0;
+			text-align: center;
+
+			img{
+				max-width: 100%;
+			}
+		}
+
+		&-box{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 349px;
+			height: 248px;
+			background: url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__features-bag.png") no-repeat 0 0;
+		}
+	}
+
+	&__guidelines{
+		min-width: 1260px;
+		background: linear-gradient(to top, #d9d9d5, #e1e0db);
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 70px 50px;
+			box-sizing: border-box;
+			max-width: 1920px;
+			background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__guidelines-bg.png") no-repeat 98% center/auto 90%;
+		}
+
+		h2{
+			margin: 0 0 35px;
+			max-width: 36%;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 60px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #363636;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		p{
+			margin: 0 0 30px;
+			max-width: 36%;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #898989;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+			font-style: italic;
+
+			b{
+				color: #363636;
+				font-weight: 400;
+			}
+
+			&:last-child{
+				margin: 0;
+			}
+		}
+	}
+
+	&__features{
+		min-width: 1260px;
+		background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-1.png") no-repeat center top/100% 1417px,
+								linear-gradient(to top, rgba(255,213,79,1) 0px, rgba(255,213,79,1) 100px, rgba(255,213,79,0) 400px),
+								url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-4.png") no-repeat center bottom,
+								url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-3.jpg") no-repeat center 800px,
+								url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-2.jpg") repeat-x center 460px/auto 100%;
+		text-align: center;
+		font-size: 0;
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 70px 0;
+			box-sizing: border-box;
+			min-height: 1899px;
+			max-width: 1920px;
+		}
+
+		h2{
+			margin: 0 0 65px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #000;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		&-img{
+			display: inline-block;
+			vertical-align: top;
+			max-width: 50%;
+
+			img{
+				max-width: 100%;
+			}
+		}
+
+		h3{
+			margin: -18% 0 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #ffd54f;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: right;
+		}
+	}
+
+	&__interface{
+		min-width: 1260px;
+		background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-bg-3.jpg") repeat-x center bottom,
+								url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-bg-2.jpg") repeat-x center top;
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 70px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
+			background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-img-1.png") no-repeat center 190px;
+			overflow: hidden;
+		}
+
+		h2{
+			margin: 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		&-img{
+			margin: 150px -220px -150px 0;
+			line-height: 0;
+			text-align: right;
+
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+
+	&__elements{
+		min-width: 1260px;
+		background: #fdd049 url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-4.jpg") no-repeat center bottom/100% 1040px;
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 70px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
+			min-height: 1993px;
+			background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-2.jpg") no-repeat right 100px,
+									url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-3.png") no-repeat center 98%;
+			position: relative;
+		}
+
+		&-form{
+			margin: 0 0 0 -100px;
+			float: left;
+			min-height: 740px;
+			min-width: 790px;
+			background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-1.png") no-repeat left bottom;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #7e5a13;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		&-login{
+			margin: 0;
+			float: left;
+			background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-1.png") no-repeat left top;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #7e5a13;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		&-title-1{
+			position: absolute;
+			bottom: 700px;
+			right: 70px;
+			margin: 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #7e5a13;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		&-title-2{
+			position: absolute;
+			bottom: 10px;
+			left: 120px;
+			margin: 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #7e5a13;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+	}
+
+	&__end{
+		min-height: 709px;
+		min-width: 1260px;
+		background: url('images/portfolio-sdelay-delo-app/sdelay-delo-app__end-bg-1.jpg') repeat-x center top;
+	}
+}
+/*end of sdelay-delo-app*/

@@ -769,3 +769,89 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /*end of amrest-business-school*/
 /*end of AMREST-BUSINESS-SCHOOL*/
+/*SDELAY-DELO-MOBILE*/
+/*sdelay-delo-app-header*/
+.sdelay-delo-app-header { min-width: 1260px; }
+
+.sdelay-delo-app-header.h1-wrap { background: #fff; box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25); position: relative; z-index: 1; }
+
+.sdelay-delo-app-header.h1-wrap .breadcrumbs-wrap { margin: 0 auto; max-width: 1366px; }
+
+.sdelay-delo-app-header.h1-wrap h1 { margin: 0; padding: 45px 0 50px; text-align: center; line-height: 0; }
+
+.sdelay-delo-app-header.h1-wrap h1 img { max-width: 438px; }
+
+/*end of sdelay-delo-app-header*/
+/*sdelay-delo-app*/
+.sdelay-delo-app__promo { margin: 0 auto; padding: 55px 0 0; box-sizing: border-box; min-width: 1260px; min-height: 533px; background: -webkit-linear-gradient(bottom, #ffd54f, rgba(255, 213, 79, 0)), -webkit-linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-2.png") no-repeat right top, url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-1.jpg") repeat center top; background: linear-gradient(to top, #ffd54f, rgba(255, 213, 79, 0)), linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-2.png") no-repeat right top, url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__promo-bg-1.jpg") repeat center top; position: relative; }
+
+.sdelay-delo-app__promo h2 { margin: 0 auto 30px; padding: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 36px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.sdelay-delo-app__promo p { margin: 0 auto 55px; padding: 0 20px; box-sizing: border-box; max-width: 1920px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.sdelay-delo-app__promo-list { margin: 0 0 50px; font-size: 0; text-align: center; }
+
+.sdelay-delo-app__promo-list li { margin: 0 55px; display: inline-block; vertical-align: top; }
+
+.sdelay-delo-app__promo-list li h3 { margin: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 72px; line-height: 1.2em; font-weight: 400; color: #b6ee18; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.sdelay-delo-app__promo-list li p { margin: 0; }
+
+.sdelay-delo-app__promo-list li:last-child, .sdelay-delo-app__promo-list li:first-child { min-width: 170px; }
+
+.sdelay-delo-app__promo-img { margin: -200px 0 0; line-height: 0; text-align: center; }
+
+.sdelay-delo-app__promo-img img { max-width: 100%; }
+
+.sdelay-delo-app__promo-box { position: absolute; bottom: 0; left: 0; width: 349px; height: 248px; background: url("images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__features-bag.png") no-repeat 0 0; }
+
+.sdelay-delo-app__guidelines { min-width: 1260px; background: -webkit-linear-gradient(bottom, #d9d9d5, #e1e0db); background: linear-gradient(to top, #d9d9d5, #e1e0db); }
+
+.sdelay-delo-app__guidelines-wrapper { margin: 0 auto; padding: 50px 70px 50px; box-sizing: border-box; max-width: 1920px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__guidelines-bg.png") no-repeat 98% center/auto 90%; }
+
+.sdelay-delo-app__guidelines h2 { margin: 0 0 35px; max-width: 36%; font-family: Verdana, Helvetica, sans-serif; font-size: 60px; line-height: 1.2em; font-weight: 400; color: #363636; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__guidelines p { margin: 0 0 30px; max-width: 36%; font-family: Verdana, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #898989; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; font-style: italic; }
+
+.sdelay-delo-app__guidelines p b { color: #363636; font-weight: 400; }
+
+.sdelay-delo-app__guidelines p:last-child { margin: 0; }
+
+.sdelay-delo-app__features { min-width: 1260px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-1.png") no-repeat center top/100% 1417px, -webkit-linear-gradient(bottom, #ffd54f 0px, #ffd54f 100px, rgba(255, 213, 79, 0) 400px), url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-4.png") no-repeat center bottom, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-3.jpg") no-repeat center 800px, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-2.jpg") repeat-x center 460px/auto 100%; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-1.png") no-repeat center top/100% 1417px, linear-gradient(to top, #ffd54f 0px, #ffd54f 100px, rgba(255, 213, 79, 0) 400px), url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-4.png") no-repeat center bottom, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-3.jpg") no-repeat center 800px, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__features-bg-2.jpg") repeat-x center 460px/auto 100%; text-align: center; font-size: 0; }
+
+.sdelay-delo-app__features-wrapper { margin: 0 auto; padding: 50px 70px 0; box-sizing: border-box; min-height: 1899px; max-width: 1920px; }
+
+.sdelay-delo-app__features h2 { margin: 0 0 65px; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #000; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__features-img { display: inline-block; vertical-align: top; max-width: 50%; }
+
+.sdelay-delo-app__features-img img { max-width: 100%; }
+
+.sdelay-delo-app__features h3 { margin: -18% 0 0; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #ffd54f; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: right; }
+
+.sdelay-delo-app__interface { min-width: 1260px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-bg-3.jpg") repeat-x center bottom, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-bg-2.jpg") repeat-x center top; }
+
+.sdelay-delo-app__interface-wrapper { margin: 0 auto; padding: 50px 70px 0; box-sizing: border-box; max-width: 1920px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-img-1.png") no-repeat center 190px; overflow: hidden; }
+
+.sdelay-delo-app__interface h2 { margin: 0; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__interface-img { margin: 150px -220px -150px 0; line-height: 0; text-align: right; }
+
+.sdelay-delo-app__interface-img img { max-width: 100%; }
+
+.sdelay-delo-app__elements { min-width: 1260px; background: #fdd049 url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-4.jpg") no-repeat center bottom/100% 1040px; }
+
+.sdelay-delo-app__elements-wrapper { margin: 0 auto; padding: 50px 70px 0; box-sizing: border-box; max-width: 1920px; min-height: 1993px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-2.jpg") no-repeat right 100px, url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-3.png") no-repeat center 98%; position: relative; }
+
+.sdelay-delo-app__elements-form { margin: 0 0 0 -100px; float: left; min-height: 740px; min-width: 790px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-1.png") no-repeat left bottom; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #7e5a13; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.sdelay-delo-app__elements-login { margin: 0; float: left; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__elements-bg-1.png") no-repeat left top; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #7e5a13; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__elements-title-1 { position: absolute; bottom: 700px; right: 70px; margin: 0; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #7e5a13; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__elements-title-2 { position: absolute; bottom: 10px; left: 120px; margin: 0; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #7e5a13; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.sdelay-delo-app__end { min-height: 709px; min-width: 1260px; background: url("images/portfolio-sdelay-delo-app/sdelay-delo-app__end-bg-1.jpg") repeat-x center top; }
+
+/*end of sdelay-delo-app*/
+/*end of SDELAY-DELO-MOBILE*/

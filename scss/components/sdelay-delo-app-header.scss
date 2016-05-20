@@ -1,0 +1,28 @@
+/*sdelay-delo-app-header*/
+.sdelay-delo-app-header{
+	min-width: 1260px;
+
+	&.h1-wrap{
+		background: #fff;
+		box-shadow: 0 0 5px 5px rgba(0,0,0,.25);
+		position: relative;
+		z-index: 1;
+
+		.breadcrumbs-wrap{
+			margin: 0 auto;
+			max-width: 1366px;
+		}
+
+		h1{
+			margin: 0;
+			padding: 45px 0 50px;
+			text-align: center;
+			line-height: 0;
+
+			img{
+				max-width: 438px;
+			}
+		}
+	}
+}
+/*end of sdelay-delo-app-header*/

@@ -5,49 +5,69 @@ html
 		meta(charset="UTF-8")
 		link(rel='stylesheet', type='text/css', href='style.css')
 	body
-		div.sdelay-delo-mobile-header.h1-wrap
+		div.sdelay-delo-app-header.h1-wrap
 			div.breadcrumbs-wrap
 				|#BREADCRUMBS#
 			h1
 				img(src='images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile-logo.png' alt='sdelay-delo-mobile-logo')
 
-		section.sdelay-delo-mobile
-			div.sdelay-delo-mobile__promo
-				div.sdelay-delo-mobile__promo-wrapper
-					h2 Мобильная версия сайта поиска исполнителей и заказчиков<br>
-						|для решения задач
+		section.sdelay-delo-app
+			div.sdelay-delo-app__promo
+				h2 Мобильное приложение<br>
+					|для поиска исполнителей и заказчиков<br>
+					|для решения задач
+				p Сайт по инициативе заказчика не обладает богатым функционалом, кроме онлайн-тестирования, но при этом является крепким<br>
+					|интернет-ресурсом отражающим успешную деятельность компании и известность на рынке. Сайт создает благоприятное<br>
+					|впечатление. Разработан на CMS "1C-Битрикс".
+				ul.sdelay-delo-app__promo-list
+					li
+						h3 35
+						p скринов
+					li
+						h3 Material Design
+						p принцип
+					li
+						h3 150+
+						p элементов
+				div.sdelay-delo-app__promo-img
+					img(src='images/portfolio-sdelay-delo-app/sdelay-delo-app__promo-bg-1.png' alt='img')
+				div.sdelay-delo-app__promo-box
+
+			div.sdelay-delo-app__guidelines
+				div.sdelay-delo-app__guidelines-wrapper
+					h2 Ориентиры
 					p
-						|Сайт по инициативе заказчика не обладает богатым функционалом, кроме онлайн-тестирования, но при этом является крепким интернет-ресурсом отражающим успешную деятельность компании и известность на рынке. Сайт создает благоприятное впечатление. Разработан на CMS "1C-Битрикс".
-			div.sdelay-delo-mobile__features
-				div.sdelay-delo-mobile__features-header
-				div.sdelay-delo-mobile__features-bag
-					img(src='images/portfolio-sdelay-delo-mobile/sdelay-delo-mobile__features-bag.png' alt='sdelay-delo-mobile__features-bag')
-				div.sdelay-delo-mobile__features-wrapper
-					ul.sdelay-delo-mobile__features-list
-						li
-							h2 Главный экран
-							p
-								|Перед нами встала непростая задача: поместить в первый экран весь функционал главной страницы web-версии Сделай Дело, при этом чрезмерно не перегружать его. Объемные блоки разделов было принято решение „упаковать” в компактное раздвижное меню
-						li
-							h3 Cкрытые возможности экрана
-							p
-								|стали вторым этапом  на  пути к созданию красивого и удобного инерфейса
-						li
-							h3 Дополнительное меню
-							p
-								|Сервисное меню всегда в   быстром доступе для пользователя
-			div.sdelay-delo-mobile__forms
-				div.sdelay-delo-mobile__forms-wrapper
-					h2 Некоторые формы...
-			div.sdelay-delo-mobile__map
-				div.sdelay-delo-mobile__map-wrapper
-					div.sdelay-delo-mobile__map-text
-						h2 Интерактивная<br>
-							|карта с заданиями
-						p Каждый зарегистрированный пользователь независимо от статуса (Заказчик или Исполнитель) имеет Личный кабинет на сайте. Функционал личного кабинета включает в себя такие возможности, как: личных данные, рейтинг на сайте, уведомления, возможность пополнения счета и многое другое.
-			div.sdelay-delo-mobile__pages
-				div.sdelay-delo-mobile__pages-wrapper
-				
+						b При проектировании мобильного приложения возникают следующие вопросы:
+					p Переносить ли полностью весь функционал или только часть?<br>
+						|Какие нужно учитывать особенности мобильного устройства кроме «размера экрана» или «отсутствия нормальной клавиатуры и мыши»?<br>
+						|Какие есть практические рекомендации при проектировании мобильных приложений под iOS и Android?
+					p
+						b Мы знаем об особенностях интерфейса каждой из платформ. Например, о том, что часть функций на Android выполняется кнопками на самом телефоне, а не на экране.<br>
+							|За основу проектирования был взят принцип Material Design, однако, для того, чтобы спроектировать эффективное и успешное приложение, недостаточно просто следовать стандартам, поэтому мы применить комплексный подход, учитывающий все особенности функционала web-версии сайта Cделай Дело.
+
+			div.sdelay-delo-app__features
+				div.sdelay-delo-app__features-wrapper
+					h2 Особенности проектирования
+					div.sdelay-delo-app__features-img
+						img(src='images/portfolio-sdelay-delo-app/sdelay-delo-app__features-img-1.png' alt='img')
+					div.sdelay-delo-app__features-img
+						img(src='images/portfolio-sdelay-delo-app/sdelay-delo-app__features-img-2.png' alt='img')
+					h3 Карта<br> взаимодействия
+
+			div.sdelay-delo-app__interface
+				div.sdelay-delo-app__interface-wrapper
+					h2 Элементы пользовательского интерфейса
+					div.sdelay-delo-app__interface-img
+						img(src='images/portfolio-sdelay-delo-app/sdelay-delo-app__interface-bg-1.png' alt='img')
+
+			div.sdelay-delo-app__elements
+				div.sdelay-delo-app__elements-wrapper.clearfix
+					h3.sdelay-delo-app__elements-form Форма входа
+					h3.sdelay-delo-app__elements-title-1 Меню<br>профиля
+					h3.sdelay-delo-app__elements-title-2 Floating action<br>button
+
+			div.sdelay-delo-app__end
+
 		footer.portfolio-footer.portfolio-footer--sdelay-delo-mobile.price-block
 			a.portfolio-footer__prices.price(href='/prices/creation-of-sites/') Смотреть цены
 			a.portfolio-footer__logo.link(href='#' target='_blank')
