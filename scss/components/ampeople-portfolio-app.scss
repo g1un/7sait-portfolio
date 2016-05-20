@@ -1,0 +1,207 @@
+/*ampeople-portfolio-app*/
+.ampeople-portfolio-app{
+	min-width: 1260px;
+
+	&__promo{
+		background:	url("images/portfolio-ampeople-app/ampeople-portfolio-app__promo-bg-3.png") no-repeat center bottom/100%,
+						#264d51 url("images/portfolio-ampeople-app/ampeople-portfolio-app__promo-bg-1.jpg") repeat-x center top/100%;
+		min-height: 2155px;
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 20px 0;
+			box-sizing: border-box;
+			max-width: 1920px;
+		}
+
+		h2{
+			margin: 0 0 55px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 36px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #50f8f6;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		p{
+			margin: 0 0 55px;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 18px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		&-img{
+
+			&-1,
+			&-2{
+				margin: 0 auto;
+				text-align: center;
+				line-height: 0;
+
+				img{
+					max-width: 100%;
+				}
+			}
+		}
+
+		h3{
+			margin: 0;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 26px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		h3{
+			margin: 0;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 26px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #fff;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: left;
+		}
+
+		&-text{
+			margin: -300px 0 70px;
+
+			p{
+				margin: 0 0 25px;
+				font-family: Ubuntu-Light, Helvetica, sans-serif;
+				font-size: 18px;
+				line-height: 1.2em;
+				font-weight: 400;
+				color: #fff;
+				text-transform: none;
+				text-decoration: none;
+				letter-spacing: 0;
+				text-align: left;
+			}
+		}
+	}
+
+	&__elements{
+		background: #b3dcdf/* url("images/portfolio-ampeople-app/ampeople-portfolio-app__promo-bg-3.png") no-repeat center top/100%*/;
+
+		&-wrapper{
+			margin: 0 auto;
+			padding: 50px 20px 60px;
+			box-sizing: border-box;
+			max-width: 1920px;
+		}
+
+		h2{
+			margin: 0 0 100px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #224347;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+
+		&-img{
+			margin: 0 auto;
+			max-width: 1366px;
+
+			&-1,
+			&-2,
+			&-3,
+			&-4{
+				margin: 0 auto;
+				text-align: center;
+				line-height: 0;
+
+				img{
+					max-width: 100%;
+				}
+			}
+
+			&-3{
+				margin: -300px auto 0;
+				text-align: right;
+
+				h3{
+					display: inline-block;
+					vertical-align: top;
+					width: 677px;
+				}
+			}
+
+			&-4{
+				margin: -400px auto 0;
+				text-align: left;
+
+				h3{
+					display: inline-block;
+					vertical-align: top;
+					width: 545px;
+				}
+			}
+		}
+
+		h3{
+			margin: 0;
+			background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__elements-bg-1.png") no-repeat center center/100% 300%;
+			font-family: Ubuntu-Regular, Helvetica, sans-serif;
+			font-size: 24px;
+			line-height: 100px;
+			font-weight: 400;
+			color: #224347;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__graphic{
+		min-height: 830px;
+		background: #b3dcdf url("images/portfolio-ampeople-app/ampeople-portfolio-app__graphic-bg-1.png") no-repeat center bottom;
+
+		h2{
+			margin: 0 0 70px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 48px;
+			line-height: 1.2em;
+			font-weight: 400;
+			color: #224347;
+			text-transform: none;
+			text-decoration: none;
+			letter-spacing: 0;
+			text-align: center;
+		}
+	}
+
+	&__end-1{
+		min-height: 854px;
+		background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__end-1-bg-1.jpg") repeat-x center top;
+	}
+
+	&__end-2{
+		min-height: 910px;
+		background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__end-2-bg-1.jpg") repeat-x center center;
+	}
+}
+/*end of ampeople-portfolio-app*/

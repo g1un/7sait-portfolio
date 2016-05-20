@@ -47,6 +47,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 @font-face { font-family: NeueHaasUnicaW1G-Medium; src: url(fonts/NeueHaasUnicaW1G-Medium.ttf); font-weight: normal; }
 
+@font-face { font-family: Ubuntu-Light; src: url(fonts/Ubuntu-Light.ttf); font-weight: normal; }
+
 /*end of fonts*/
 /*portfolio-footer*/
 .portfolio-footer { min-height: 280px; min-width: 1260px; background: url("images/diamind-footer-bg.jpg") no-repeat center 0; font-size: 0; text-align: center; }
@@ -855,3 +857,69 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /*end of sdelay-delo-app*/
 /*end of SDELAY-DELO-MOBILE*/
+/*AMPEOPLE*/
+/*ampeople-portfolio-app-header*/
+.ampeople-portfolio-app-header { background: -webkit-linear-gradient(top, #fff, #eee); background: linear-gradient(to bottom, #fff, #eee); }
+
+.ampeople-portfolio-app-header.h1-wrap .breadcrumbs-wrap { max-width: 1366px; min-width: 1260px; }
+
+.ampeople-portfolio-app-header.h1-wrap h1 { margin: 0 auto; padding: 10px 0 20px; text-align: center; font-size: 0; line-height: 0; left: auto; }
+
+.ampeople-portfolio-app-header.h1-wrap h1 span { margin: 0 20px -5px 0; display: inline-block; vertical-align: bottom; font-family: MyriadPro-Regular, Helvetica, sans-serif; font-size: 24px; line-height: 1.2em; font-weight: 400; color: #425051; text-transform: none; text-decoration: none; letter-spacing: 0; }
+
+/*end of ampeople-portfolio-app-header*/
+/*ampeople-portfolio-app*/
+.ampeople-portfolio-app { min-width: 1260px; }
+
+.ampeople-portfolio-app__promo { background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__promo-bg-3.png") no-repeat center bottom/100%, #264d51 url("images/portfolio-ampeople-app/ampeople-portfolio-app__promo-bg-1.jpg") repeat-x center top/100%; min-height: 2155px; }
+
+.ampeople-portfolio-app__promo-wrapper { margin: 0 auto; padding: 50px 20px 0; box-sizing: border-box; max-width: 1920px; }
+
+.ampeople-portfolio-app__promo h2 { margin: 0 0 55px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 36px; line-height: 1.2em; font-weight: 400; color: #50f8f6; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__promo p { margin: 0 0 55px; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__promo-img-1, .ampeople-portfolio-app__promo-img-2 { margin: 0 auto; text-align: center; line-height: 0; }
+
+.ampeople-portfolio-app__promo-img-1 img, .ampeople-portfolio-app__promo-img-2 img { max-width: 100%; }
+
+.ampeople-portfolio-app__promo h3 { margin: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 26px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__promo h3 { margin: 0; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 26px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.ampeople-portfolio-app__promo-text { margin: -300px 0 70px; }
+
+.ampeople-portfolio-app__promo-text p { margin: 0 0 25px; font-family: Ubuntu-Light, Helvetica, sans-serif; font-size: 18px; line-height: 1.2em; font-weight: 400; color: #fff; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: left; }
+
+.ampeople-portfolio-app__elements { background: #b3dcdf; }
+
+.ampeople-portfolio-app__elements-wrapper { margin: 0 auto; padding: 50px 20px 60px; box-sizing: border-box; max-width: 1920px; }
+
+.ampeople-portfolio-app__elements h2 { margin: 0 0 100px; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #224347; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__elements-img { margin: 0 auto; max-width: 1366px; }
+
+.ampeople-portfolio-app__elements-img-1, .ampeople-portfolio-app__elements-img-2, .ampeople-portfolio-app__elements-img-3, .ampeople-portfolio-app__elements-img-4 { margin: 0 auto; text-align: center; line-height: 0; }
+
+.ampeople-portfolio-app__elements-img-1 img, .ampeople-portfolio-app__elements-img-2 img, .ampeople-portfolio-app__elements-img-3 img, .ampeople-portfolio-app__elements-img-4 img { max-width: 100%; }
+
+.ampeople-portfolio-app__elements-img-3 { margin: -300px auto 0; text-align: right; }
+
+.ampeople-portfolio-app__elements-img-3 h3 { display: inline-block; vertical-align: top; width: 677px; }
+
+.ampeople-portfolio-app__elements-img-4 { margin: -400px auto 0; text-align: left; }
+
+.ampeople-portfolio-app__elements-img-4 h3 { display: inline-block; vertical-align: top; width: 545px; }
+
+.ampeople-portfolio-app__elements h3 { margin: 0; background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__elements-bg-1.png") no-repeat center center/100% 300%; font-family: Ubuntu-Regular, Helvetica, sans-serif; font-size: 24px; line-height: 100px; font-weight: 400; color: #224347; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__graphic { min-height: 830px; background: #b3dcdf url("images/portfolio-ampeople-app/ampeople-portfolio-app__graphic-bg-1.png") no-repeat center bottom; }
+
+.ampeople-portfolio-app__graphic h2 { margin: 0 0 70px; font-family: Verdana, Helvetica, sans-serif; font-size: 48px; line-height: 1.2em; font-weight: 400; color: #224347; text-transform: none; text-decoration: none; letter-spacing: 0; text-align: center; }
+
+.ampeople-portfolio-app__end-1 { min-height: 854px; background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__end-1-bg-1.jpg") repeat-x center top; }
+
+.ampeople-portfolio-app__end-2 { min-height: 910px; background: url("images/portfolio-ampeople-app/ampeople-portfolio-app__end-2-bg-1.jpg") repeat-x center center; }
+
+/*end of ampeople-portfolio-app*/
+/*end of AMPEOPLE*/
